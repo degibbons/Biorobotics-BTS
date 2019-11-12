@@ -66,7 +66,7 @@ for (int x = 0; x < 63; x = x + 1) {
     dxlSetGoalPosition(3, m3);
     dxlSetGoalPosition(4, m4);
 
-
+// The 4th server is isolated to make observation simple
     torq = dxlGetTorque(4);
     sped = dxlGetSpeed(4);
     volt = dxlGetVoltage(4);
